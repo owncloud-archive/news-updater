@@ -103,6 +103,10 @@ There are two ways to run the updater:
 
     owncloud-news-updater /path/to/owncloud
 
+**Note**: this command needs to be executed as the same user that owns the owncloud files. You can achieve this using sudo (user might vary depending on your server and distribution), e.g.::
+
+    sudo -u http owncloud-news-updater /path/to/ownclou
+
 * Using the REST API (when running the updater on a different machine than ownCloud)::
 
     owncloud-news-updater https://domain.com/path/to/owncloud --user admin_user --password admin_password
