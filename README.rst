@@ -26,7 +26,7 @@ Dependencies
 ------------
 
 * **Python >=3.4**
-
+* **typing** (from pip) if you are running Python 3.4
 
 Pre-Installation
 ----------------
