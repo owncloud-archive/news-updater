@@ -31,5 +31,6 @@ pypi: clean
 .PHONY: test
 test:
 	pep8 .
+	python3 -m mypy owncloud_news_updater --disallow-untyped-defs
 	python3 -m owncloud_news_updater --version
 	python3 -m unittest
